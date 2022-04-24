@@ -1,0 +1,273 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  width: 1440px;
+  height: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  font-weight: 400;
+  font-family: 'Arapey', serif;
+  color: #9db0d1;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  margin: 100px 340px 50px 339px;
+}
+p {
+  font-family: 'Verdana';
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 208px 74px 208px;
+}
+.up {
+  max-width: 1440px;
+  margin: 0px auto;
+  text-align: center;
+}
+.button {
+  font-weight: 400;
+  font-family: 'Arapey', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 32px;
+  padding: 24px 50px;
+  width: 267px;
+  height: 80px;
+  background: #EBAC87;
+  border-radius: 10px;
+  margin: 0 566px 68px 607px;
+}
+.ok {
+  display: flex;
+  align-items: center;
+}
+.ok2 {
+  margin: 0 0 0 50px;
+}
+.teg {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.text1 {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 0 15px;
+  text-align: left;
+}
+.text2 {
+  font-family: 'Arapey';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: black;
+   background: url(../img/tuchi.png) no-repeat top / auto 200px,
+    linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 100px;
+}
+.back {
+  width: 1440px;
+  left: 0px;
+  top: 921px;
+  background: #87C6EB;
+}
+.box {
+  width: 350px;
+  height: 560px;
+  left: 120px;
+  top: 898px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: -30px -55px 80px 120px;
+}
+.dot {
+  width: 60px;
+  height: 60px;
+  left: 140px;
+  top: 918px;
+  border-radius: 50%;
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  padding: 12px 20px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  background: rgba(235, 172, 135, 0.4);
+}
+.item-1 {background: rgba(235, 172, 135, 0.4);}
+.item-2 {background: rgba(235, 172, 135, 0.6);}
+.item-3 {background: rgba(235, 172, 135, 1);}
+
+.red {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+  margin: 0 0 20px 0;
+}
+.mountain {
+  width: 100%;
+}
+.all {
+  padding: 20px;
+}
+.text3 {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 0 15px;
+  text-align: left;
+  max-width: 260px;
+}
+.text3 span {
+  font-weight: bold;
+}
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: -37px;
+}
+h2 {
+  font-family: 'Arapey';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  width: 600px;
+  height: 132px;
+  margin: 0 0 50px 120px;
+  color: #FFFFFF;
+}
+.content {
+  text-align: left;
+}
+.text4 {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 600px;
+  height: 73px;
+  text-align: left;
+  margin: 0 0 50px 120px;
+  color: #000000;
+}
+.button2 {
+  font-weight: 400;
+  font-family: 'Arapey', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: #EBAC87;
+  line-height: 32px;
+  padding: 24px 50px;
+  width: 220px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 0 0 50px 120px;
+}
+.down {
+  display: flex;
+  align-items: center;
+}
+.text4 span {
+  text-decoration: underline;
+}
+.elips {
+}
+.mountain3 {
+  background: url(../img/ques.svg) no-repeat right bottom 50px,
+  url(../img/photo04.png) no-repeat top / 600px;
+  width: 600px;
+  height: 475px;
+  z-index: 5;
+}
+.button3 {
+  font-weight: 400;
+  font-family: 'Arapey', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 32px;
+  padding: 24px 50px;
+  width: 267px;
+  height: 80px;
+  background: #EBAC87;
+  border-radius: 10px;
+  margin: 50px 771px 50px 120px;
+}
+footer {
+  display: flex;
+  align-items: center;
+}
+.cite{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.cite1 {
+  margin: 0 0 0 36px;
+}
